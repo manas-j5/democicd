@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name : "Build app"
-    - run: echo "Building App"
+      run: echo "Building App"
     
 
   test:
@@ -47,4 +47,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name : "testing app"
-    - run: echo "testing npmgit App"
+      run: echo "testing npmgit App"
